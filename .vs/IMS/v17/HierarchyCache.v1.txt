@@ -1,0 +1,397 @@
+﻿++Solution 'IMS' ‎(4 of 4 projects)
+i:{00000000-0000-0000-0000-000000000000}:IMS.sln
+++IMS.UseCases
+i:{00000000-0000-0000-0000-000000000000}:IMS.UseCases
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.usecases\bin\debug\net6.0\ims.usecases.dll
+++Dependencies
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:>554
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:>555
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:>556
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>775
+++Activities
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\activities\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\activities\
+++Interfaces
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\
+++Inventories
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\inventories\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\inventories\
+++PluginInterfaces
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\plugininterfaces\
+++Products
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\products\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\products\
+++Reports
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\reports\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\reports\
+++Validations
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\validations\
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\validations\
+++Analyzers
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:analyzers
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:analyzers
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:analyzers
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:analyzers
+++Frameworks
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:frameworks
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:frameworks
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:frameworks
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:frameworks
+++Projects
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:projects
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:projects
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:projects
+++ProduceProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\activities\produceproductusecase.cs
+++PurchaseInventoryUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\activities\purchaseinventoryusecase.cs
+++SellProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\activities\sellproductusecase.cs
+++IAddInventoryUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\iaddinventoryusecase.cs
+++IAddProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\iaddproductusecase.cs
+++IDeleteProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\ideleteproductusecase.cs
+++IEditInventoryUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\ieditinventoryusecase.cs
+++IEditProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\ieditproductusecase.cs
+++IProduceProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\iproduceproductusecase.cs
+++IPurchaseInventoryUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\ipurchaseinventoryusecase.cs
+++ISearchInventoryTransactionsUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\isearchinventorytransactionsusecase.cs
+++ISearchProductTransactionsUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\isearchproducttransactionsusecase.cs
+++ISellProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\isellproductusecase.cs
+++IValidateEnoughInventoriesForProducingUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\ivalidateenoughinventoriesforproducingusecase.cs
+++IViewInventoriesByNameUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\iviewinventoriesbynameusecase.cs
+++IViewInventoryByIdUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\iviewinventorybyidusecase.cs
+++IViewProductByIdUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\iviewproductbyidusecase.cs
+++IViewProductsByNameUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\interfaces\iviewproductsbynameusecase.cs
+++AddInventoryUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\inventories\addinventoryusecase.cs
+++EditInventoryUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\inventories\editinventoryusecase.cs
+++ViewInventoriesByNameUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\inventories\viewinventoriesbynameusecase.cs
+++ViewInventoryByIdUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\inventories\viewinventorybyidusecase.cs
+++IInventoryRepository.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\plugininterfaces\iinventoryrepository.cs
+++IInventoryTransactionRepository.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\plugininterfaces\iinventorytransactionrepository.cs
+++IProductRepository.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\plugininterfaces\iproductrepository.cs
+++IProductTransactionRepository.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\plugininterfaces\iproducttransactionrepository.cs
+++AddProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\products\addproductusecase.cs
+++DeleteProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\products\deleteproductusecase.cs
+++EditProductUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\products\editproductusecase.cs
+++ViewProductByIdUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\products\viewproductbyidusecase.cs
+++ViewProductsByNameUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\products\viewproductsbynameusecase.cs
+++SearchInventoryTransactionsUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\reports\searchinventorytransactionsusecase.cs
+++SearchProductTransactionsUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\reports\searchproducttransactionsusecase.cs
+++ValidateEnoughInventoriesForProducingUseCase.cs
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\validations\validateenoughinventoriesforproducingusecase.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.4\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.usecases\microsoft.netcore.app
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\microsoft.netcore.app
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\microsoft.netcore.app
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\microsoft.netcore.app
+++IMS.CoreBusiness
+i:{5327b826-30d7-4a7f-aa69-5ad3e4d6aa50}:d:\projects\ims done\ims.corebusiness\bin\debug\net6.0\ims.corebusiness.dll
+i:{00000000-0000-0000-0000-000000000000}:IMS.CoreBusiness
+++Inventory.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\inventory.cs
+++InventoryTransaction.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\inventorytransaction.cs
+++InventoryTransactionType.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\inventorytransactiontype.cs
+++Product.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\product.cs
+++ProductInventory.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\productinventory.cs
+++ProductTransaction.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\producttransaction.cs
+++ProductTransactionType.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\producttransactiontype.cs
+++Product_EnsurePriceIsGreaterThanInventoriesPrice.cs
+i:{637055ca-7be9-41d9-878a-fbb889b0ccd3}:d:\projects\ims done\ims.corebusiness\validations\product_ensurepriceisgreaterthaninventoriesprice.cs
+++IMS.Plugins.EFCore
+i:{00000000-0000-0000-0000-000000000000}:IMS.Plugins.EFCore
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.plugins.efcore\bin\debug\net6.0\ims.plugins.efcore.dll
+++Migrations
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\migrations\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\migrations\
+++IMSContext.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\imscontext.cs
+++InventoryRepository.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\inventoryrepository.cs
+++InventoryTransactionRepository.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\inventorytransactionrepository.cs
+++ProductRepository.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\productrepository.cs
+++ProductTransactionRepository.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\producttransactionrepository.cs
+++Packages
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:packages
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:packages
+++20220127121859_Init.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\migrations\20220127121859_init.cs
+++IMSContextModelSnapshot.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\migrations\imscontextmodelsnapshot.cs
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:c:\users\sympa\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\users\sympa\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.1\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:c:\users\sympa\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.EntityFrameworkCore (6.0.1)
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:>817
+++Microsoft.EntityFrameworkCore.Design (6.0.1)
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:>821
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.1)
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:>819
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>820
+++Microsoft.EntityFrameworkCore.Tools (6.0.1)
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:>823
+++20220127121859_Init.Designer.cs
+i:{4fca2e0c-483a-4b29-82f9-c0232a05aa10}:d:\projects\ims done\ims.plugins.efcore\migrations\20220127121859_init.designer.cs
+++IMS.WebApp
+i:{00000000-0000-0000-0000-000000000000}:IMS.WebApp
+++Connected Services 
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>776
+++Properties
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\properties\
+++wwwroot
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\
+++Areas
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\
+++Controls
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\
+++Menu
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\menu\
+++InventoryMenuItemComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\menu\inventorymenuitemcomponent.razor
+++ErrorMessageComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\errormessagecomponent.razor
+++InventoryItemComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\inventoryitemcomponent.razor
+++MenuItemComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\menuitemcomponent.razor
+++ProductInventoriesComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\productinventoriescomponent.razor
+++ProductItemComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\productitemcomponent.razor
+++ProductItemComponentForUser.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\productitemcomponentforuser.razor
+++SelectedInventories.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\selectedinventories.razor
+++ViewInventoriesComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\viewinventoriescomponent.razor
+++ViewProductsComponent.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\controls\viewproductscomponent.razor
+++Data
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\
+++Pages
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\identity\pages\
+++AddInventory.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\inventories\addinventory.razor
+++EditInventory.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\inventories\editinventory.razor
+++InventoryList.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\inventories\inventorylist.razor
+++AddProduct.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\products\addproduct.razor
+++EditProduct.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\products\editproduct.razor
+++ProductList.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\products\productlist.razor
+++_Host.cshtml
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\_host.cshtml
+++_Layout.cshtml
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\_layout.cshtml
+++Counter.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\counter.razor
+++Error.cshtml
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\error.cshtml
+++FetchData.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\fetchdata.razor
+++Index.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\index.razor
+++Menu.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\menu.razor
+++Shared
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\shared\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\identity\pages\shared\
+++LoginDisplay.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\shared\logindisplay.razor
+++MainLayout.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\shared\mainlayout.razor
+++NavMenu.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\shared\navmenu.razor
+++SurveyPrompt.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\shared\surveyprompt.razor
+++ViewModels
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\viewmodels\
+++_Imports.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\_imports.razor
+++App.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\app.razor
+++appsettings.json
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\appsettings.json
+++Program.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\program.cs
+++SQL Server Express LocalDB (Local) (ConnectionStrings:DefaultConnection)
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>832
+++launchSettings.json
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\properties\launchsettings.json
+++serviceDependencies.json
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\properties\servicedependencies.json
+++css
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\css\
+++images
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\images\
+++favicon.ico
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\favicon.ico
+++Identity
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\identity\
+++ApplicationDbContext.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\applicationdbcontext.cs
+++WeatherForecast.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\weatherforecast.cs
+++WeatherForecastService.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\weatherforecastservice.cs
+++ProduceProduct.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\activities\produceproduct.razor
+++PurchaseInventory.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\activities\purchaseinventory.razor
+++SellProduct.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\activities\sellproduct.razor
+++InventoryTransactions.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\reports\inventorytransactions.razor
+++ProductTransactions.razor
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\reports\producttransactions.razor
+++Error.cshtml.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\pages\error.cshtml.cs
+++MainLayout.razor.css
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\shared\mainlayout.razor.css
+++NavMenu.razor.css
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\shared\navmenu.razor.css
+++ProduceViewModel.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\viewmodels\produceviewmodel.cs
+++PurchaseViewModel.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\viewmodels\purchaseviewmodel.cs
+++SellViewModel.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\viewmodels\sellviewmodel.cs
+++appsettings.Development.json
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.4\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.SourceGenerator.Tooling.Internal
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.sourcegenerator.tooling.internal.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:c:\program files\dotnet\sdk\6.0.202\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\microsoft.aspnetcore.app
+++Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore (6.0.0)
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>822
+++Microsoft.AspNetCore.Identity.EntityFrameworkCore (6.0.0)
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>824
+++Microsoft.AspNetCore.Identity.UI (6.0.0)
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>827
+++Microsoft.EntityFrameworkCore.InMemory (6.0.1)
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>825
+++Microsoft.EntityFrameworkCore.Tools (6.0.0)
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:>826
+++serviceDependencies.local.json
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\properties\servicedependencies.local.json
+++bootstrap
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\bootstrap\
+++open-iconic
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\
+++site.css
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\site.css
+++luca-bravo-217276-unsplash.jpg
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\images\luca-bravo-217276-unsplash.jpg
+++RevalidatingIdentityAuthenticationStateProvider.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\identity\revalidatingidentityauthenticationstateprovider.cs
+++00000000000000_CreateIdentitySchema.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\migrations\00000000000000_createidentityschema.cs
+++ApplicationDbContextModelSnapshot.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\migrations\applicationdbcontextmodelsnapshot.cs
+++bootstrap.min.css
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\bootstrap\bootstrap.min.css
+++font
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\
+++FONT-LICENSE
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font-license
+++ICON-LICENSE
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\icon-license
+++README.md
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\readme.md
+++Account
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\identity\pages\account\
+++00000000000000_CreateIdentitySchema.Designer.cs
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\data\migrations\00000000000000_createidentityschema.designer.cs
+++bootstrap.min.css.map
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\bootstrap\bootstrap.min.css.map
+++fonts
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\fonts\
+++LogOut.cshtml
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\identity\pages\account\logout.cshtml
+++_LoginPartial.cshtml
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\areas\identity\pages\shared\_loginpartial.cshtml
+++open-iconic-bootstrap.min.css
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+++open-iconic.eot
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+++open-iconic.otf
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+++open-iconic.svg
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+++open-iconic.ttf
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+++open-iconic.woff
+i:{26ddb58f-0306-4da3-a822-255e06993d87}:d:\projects\ims done\ims.webapp\wwwroot\css\open-iconic\font\fonts\open-iconic.woff

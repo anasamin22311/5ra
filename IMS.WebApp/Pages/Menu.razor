@@ -1,0 +1,74 @@
+﻿@page "/menu"
+@inject IViewInventoriesByNameUseCase ViewInventoriesByNameUseCase
+@inject NavigationManager NavigationManager
+@inject IViewProductsByNameUseCase ViewProductsByNameUseCase
+
+<div class="card-title table-info text-center text-danger">
+    <h3>Product List</h3>
+</div>
+<br />
+@if (listProducts != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var product in this.listProducts)
+            {
+                <ProductItemComponent Product="product"
+                              OnProductDeleted="OnProductDeleted"></ProductItemComponent>
+            }
+        </tbody>
+    </table>
+}
+<br />
+<div class="card-title table-info text-center text-danger">
+    <h3>Inventory List</h3>
+</div>
+@if (listInventories != null)
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Quantity</th>
+                <th>Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var inv in this.listInventories)
+            {
+                <InventoryMenuItemComponent Inventory="inv"></InventoryMenuItemComponent>
+            }
+        </tbody>
+    </table>
+}
+<br />
+@code {
+    private List<Product>? listProducts;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await LoadProducts();
+        var invs = await ViewInventoriesByNameUseCase.ExecuteAsync();
+        this.listInventories = invs.ToList();
+    }
+    private async Task OnProductDeleted()
+    {
+        await LoadProducts();
+    }
+
+    private async Task LoadProducts()
+    {
+        var prods = await ViewProductsByNameUseCase.ExecuteAsync();
+        this.listProducts = prods.ToList();
+    }
+    private List<Inventory>? listInventories;
+}

@@ -1,0 +1,36 @@
+﻿@inject NavigationManager NavigationManager
+
+@if (Inventory != null)
+{
+    <tr>
+        <td>@Inventory.InventoryName</td>
+        <td>@Inventory.Quantity</td>
+        <td>@Inventory.Price.ToString("c")</td>
+        <td>
+            <button type="button" class="btn btn-light" @onclick="@(async ()=> await AddItem(Inventory))">Select</button>
+        </td>
+    </tr>
+}
+
+@code {
+    [Parameter]
+    public Inventory? Inventory { get; set; }
+
+    protected override void OnInitialized()
+    {
+        base.OnInitialized();
+
+        Inventory = new Inventory();
+    }
+
+    private async Task AddItem(Inventory inventory)
+    {
+        if (this.Inventory != null)
+        {
+            await AddInventoryUseCase.ExecuteAsync(inventory);
+        }
+    }
+
+      
+    }
+    
